@@ -34,5 +34,7 @@ $mail->AltBody = '';
 
 if(!$mail->send()) {
     echo 'Error';
+} else {
+    echo 'HI';
 }
 ?>
